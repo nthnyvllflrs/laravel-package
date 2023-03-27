@@ -1,0 +1,32 @@
+{
+    "name": "dreamers/template",
+    "description": "sample package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Anthony Villaflores",
+            "email": "anthonvillaflor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dreamers\\Template\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dreamers\\Template\\TemplateServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/nthnyvllflrs/laravel-package.git"
+        }
+    ]
+}
